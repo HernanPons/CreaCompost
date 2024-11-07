@@ -4,7 +4,7 @@
          url('./fonts/Publico-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-  }
+  } 
 
 .navbar {
     display: flex;
