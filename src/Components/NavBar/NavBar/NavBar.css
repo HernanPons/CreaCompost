@@ -50,7 +50,7 @@
   .navbar-menu li a {
     color: #919191;
     text-decoration: none;
-    font-weight: bold;
+    /* font-weight: bold; */
     /* font-family: 'Publico', serif; */
   }
   
