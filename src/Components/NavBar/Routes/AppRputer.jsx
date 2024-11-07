@@ -14,7 +14,7 @@ export const AppRouter = () => {
 
             <Inicio />
             <QuienesSomos />
-            
+            <SegundoCarousel />
                 
             
 
