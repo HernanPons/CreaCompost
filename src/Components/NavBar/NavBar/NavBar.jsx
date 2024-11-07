@@ -1,10 +1,10 @@
 import React from 'react';
-import './Navbar.css'
+import '../NavBar/Navbar.css'
 
 const NavBar = () => {
   return (
     <nav className="navbar">
-      
+
       <div className="navbar-logo">
         <img src="logo.png" alt="Logo" className="logo-image" />
         <span className="logo-text">
