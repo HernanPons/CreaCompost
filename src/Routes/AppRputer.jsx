@@ -4,7 +4,7 @@ import NavBar from '../Components/NavBar/NavBar/NavBar';
 import Footer from '../Components/NavBar/Footer/Footer';
 import Inicio from '../Pages/Inicio/Inicio'
 import QuienesSomos from '../Pages/QuienesSomos/QuienesSomos'
-import SegundoCarousel from '../Pages/SegundoCarousel/segundoCarousel'
+import SegundoCarousel from '../Pages/SegundoCarousel/segundoCarousel';
 import Nosotras from '../Pages/Nosotras/Nosotras'
 
 export const AppRouter = () => {

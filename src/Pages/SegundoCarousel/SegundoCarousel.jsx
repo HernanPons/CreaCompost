@@ -8,7 +8,7 @@ const images = [
   '/Images/SegundoCarousel3.png',
 ];
 
-const segundoCarousel = () => {
+const SegundoCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -31,7 +31,7 @@ const segundoCarousel = () => {
 
 
   return (
-    <div segundoCarouselContainer>
+    <div>
 
       <div className="segundoCarousel">
         <div
@@ -52,4 +52,4 @@ const segundoCarousel = () => {
   );
 }
 
-export default segundoCarousel
+export default SegundoCarousel
