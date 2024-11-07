@@ -2,14 +2,27 @@ import React, { useState, useEffect } from 'react';
 import './SegundoCarousel.css'
 
 
-const images = [
-  '/Images/SegundoCarousel1.png',
-  '/Images/SegundoCarousel2.png',
-  '/Images/SegundoCarousel3.png',
-];
+
 
 const SegundoCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+
+
+
+
+  
+  const images = [
+    '/Images/SegundoCarousel1.png',
+    '/Images/SegundoCarousel2.png',
+    '/Images/SegundoCarousel3.png',
+  ];
+
+
+
+
+
+
+
 
   useEffect(() => {
     const interval = setInterval(() => {
