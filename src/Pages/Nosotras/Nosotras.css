@@ -1,0 +1,54 @@
+.nosotrasContainer {
+    height: 200px;
+}
+
+.tituloNosotras {
+    margin-left: 150px;
+    margin-top: 100px;
+    color: #41a62a;
+}
+
+.textoNosotras {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.fotoMaru {
+    width: 479px;
+    height: 475px;
+}
+
+.textMaru {
+    margin-left: 50px;
+}
+
+.textCeci {
+    margin-left: 50px;
+}
+
+.fotosContainer {
+    width: 1321px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 233px;
+    margin-bottom: 100px;
+}
+
+.primerFoto {
+    width: 479px;
+    height: 475px;
+}
+.primerFoto h2{
+    text-align: left;
+}
+
+.segundaFoto {
+    width: 479px;
+    height: 475px;
+    text-align: left;
+}
+.segundaFoto h2 {
+    text-align: left;
+}
