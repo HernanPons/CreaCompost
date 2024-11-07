@@ -1,0 +1,45 @@
+.segundoCarousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%; /* Ancho completo de la ventana */
+    max-height: 500px; /* Ajusta la altura según necesites */
+  }
+  
+  .segundoCarousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+  
+  .segundoCarousel-slide {
+    position: relative;
+    min-width: 100%;
+    height: 500px; /* Ajusta la altura según sea necesario */
+  }
+  
+  .segundoCarousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .segundoCarousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(90deg, #41a62a, #96bf0d);
+    color: rgb(255, 246, 246);
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .segundoCarousel-button.prev {
+    left: 10px;
+  }
+  
+  .segundoCarousel-button.next {
+    right: 10px;
+  }

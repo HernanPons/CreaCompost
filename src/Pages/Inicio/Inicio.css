@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+}
+
+/* TITULO PRINCIPAL */
+
+.encabezado {
+    width: 100%;
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+
+/* PRIMER CAROUSEL */
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%; /* Ancho completo de la ventana */
+    max-height: 646px; /* Ajusta la altura según necesites */
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+  
+  .carousel-slide {
+    position: relative;
+    min-width: 100%;
+    height: 646px; /* Ajusta la altura según sea necesario */
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .sidebar {
+    position: absolute;
+    top: 433px;
+    width: 100%; /* Ajusta el ancho de la barra lateral */
+    height: 118px;
+    background-color: #212121f7; /* Fondo semitransparente */
+    color: #dde2e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .text-green {
+    color: #32CD32; /* Verde */
+  }
+  
+  .text-gray {
+    color: #808080; /* Gris */
+  }
+
+  .text-lower {
+    display: block; /* Asegura que "Laura Pantoja" esté en una nueva línea */
+    text-align: right; /* Alineamos el texto a la derecha */
+    margin-top: 5px; /* Deja un pequeño espacio entre el texto superior e inferior */
+  }
+    
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  /* sin botones */
+  .carousel-button.prev {
+    left: 10px;
+    display: none;
+  }
+  
+  .carousel-button.next {
+    right: 10px;
+    display: none;
+  }
+  
