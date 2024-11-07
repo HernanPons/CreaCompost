@@ -4,7 +4,7 @@ import NavBar from '../NavBar/NavBar';
 import Footer from '../Footer/Footer';
 import Inicio from '../../../Pages/Inicio/Inicio'
 import QuienesSomos from '../../../Pages/QuienesSomos/QuienesSomos'
-import segundoCarousel from '../../../Pages/SegundoCarousel/segundoCarousel'
+import SegundoCarousel from '../../../Pages/SegundoCarousel/segundoCarousel'
 
 export const AppRouter = () => {
     return (
@@ -14,7 +14,7 @@ export const AppRouter = () => {
 
             <Inicio />
             <QuienesSomos />
-            <segundoCarousel />
+            <SegundoCarousel />
                 
             
 
