@@ -2,6 +2,7 @@
     margin-left: 170px;
     margin-top: 50px;
     color: #41a62a;
+    font-size: 53.75px;
 }
 
 .cursosContainer {
@@ -25,4 +26,37 @@
 
 .flechaVerMas {
     height: 30px;    
+}
+
+.greenBar {
+    background-color: aqua;
+    width: 100%;
+    max-width: 500px;
+}
+
+
+
+.imagenContainer {
+    position: relative;
+}
+.fotoHuerta {
+    width: 100%; /* Asegúrate de que la imagen ocupe el espacio necesario */
+    border-radius: 15px; /* Opcional, si quieres bordes redondeados */
+}
+.greenBar {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    width: 484px;
+    background: rgb(65,166,42);
+    background: linear-gradient(90deg, rgba(65,166,42,1) 0%, rgba(150,191,2,1) 100%);
+
+    padding: 10px;
+    text-align: left; /* Para alinear el texto a la izquierda */
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.greenBar h1 {
+    margin-left: 40px;
+    color: #ffffff;
 }

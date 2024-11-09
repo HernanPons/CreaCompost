@@ -55,8 +55,7 @@ const Inicio = () => {
               <div className="sidebar">
                 <h1>
                   <span className="text-green">{texts[index].firstPart}</span>
-                  <span
-                    className={`text-gray ${texts[index].secondPart === " Laura Pantoja" ? "text-lower" : ""}`}
+                  <span className={`text-gray ${texts[index].secondPart === " Laura Pantoja" ? "text-lower" : ""}`}
                   >
                     {texts[index].secondPart}
                   </span>

@@ -11,17 +11,28 @@ const Cursos = () => {
         <br />
 
         <div className='cursosContainer'>
-                
-                <a href="https://www.tiendanube.com/" className='primerCurso'>
+            <a href="https://www.tiendanube.com/" className='primerCurso'>
+                <div className='imagenContainer'>
                     <img className='fotoHuerta' src="/Images/HuertaAgroecologica2.png" alt="foto huerta agroecologica" />
-                    <h2 className='verMas' >ver mas <img className='flechaVerMas' src="/Images/VerMas.png" alt="" /> </h2>
-                </a>
+                    <div className='greenBar'>
+                    <h1>huerta</h1>
+                    <h1>agroecológica</h1>
+                    </div>
+                </div>
+                <h2 className='verMas'>ver mas <img className='flechaVerMas' src="/Images/VerMas.png" alt="" /></h2>
+            </a>
 
-                <a href="https://www.tiendanube.com/" className='segundaCurso'>
-                    <img className='fotoCompostaje' src="/Images/Compostaje2.png" alt="foto compostaje" />
-                    <h2 className='verMas' >ver mas <img className='flechaVerMas' src="/Images/VerMas.png" alt="" /> </h2>
-                </a>
-
+            <a href="https://www.tiendanube.com/" className='segundoCurso'>
+                <div className='imagenContainer'>
+                    <img className='fotoHuerta' src="/Images/Compostaje2.png" alt="foto huerta agroecologica" />
+                    <div className='greenBar'>
+                    <br />
+                    <h1>Compostaje</h1>
+                    <br />
+                    </div>
+                </div>
+                <h2 className='verMas'>ver mas <img className='flechaVerMas' src="/Images/VerMas.png" alt="" /></h2>
+            </a>
         </div>
     </div>
   )
