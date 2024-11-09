@@ -29,7 +29,7 @@
 }
 
 .fotosContainer {
-    width: 1321px;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
