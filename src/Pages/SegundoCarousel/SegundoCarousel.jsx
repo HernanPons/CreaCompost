@@ -7,22 +7,11 @@ import './SegundoCarousel.css'
 const SegundoCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-
-
-
-  
   const images = [
     '/Images/SegundoCarousel1.png',
     '/Images/SegundoCarousel2.png',
     '/Images/SegundoCarousel3.png',
   ];
-
-
-
-
-
-
-
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -41,7 +30,6 @@ const SegundoCarousel = () => {
   const goToNext = () => {
     setCurrentIndex(currentIndex === images.length - 1 ? 0 : currentIndex + 1);
   };
-
 
   return (
     <div>

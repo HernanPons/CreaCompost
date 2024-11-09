@@ -14,7 +14,7 @@ const QuienesSomos = () => {
         </div>
 
         <div className='segundoTexto'>
-            <br />
+            <br /> <br />
             <h1 className='text-green'>Nuestros</h1>
             <h1 className='text-green2'>servicios</h1>
             <br />

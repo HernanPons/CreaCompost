@@ -1,0 +1,55 @@
+.tituloInstituciones {
+    margin-left: 6em;
+    margin-bottom: 2em;
+    font-size: 1.2em;
+}
+
+.institucionesContainer {
+    height: auto;
+    margin-left: 2em;
+    margin-right: 2em;
+    display: flex;
+    flex-direction: row;
+}
+
+/* COLORES PARA LOS H2 DE LA GRILLA */
+.textTalleres h2 {
+    color: #96bf0d;
+}
+.textDiseño h2 {
+    color: #96bf0d;
+}
+.textSistemas h2 {
+    color: #96bf0d;
+}
+.textComunicacion h2 {
+    color: #96bf0d;
+}
+
+.textDiseño {
+    margin-top: 40px;
+}
+.textSistemas {
+    margin-top: 40px;
+}
+.textComunicacion {
+    margin-top: 40px;
+}
+
+
+
+.institucionesText {
+    margin-left: 1em;
+    align-content: end;
+    color: #96bf0d;
+    text-decoration: none;
+}
+
+.institucionesTextContainer {
+    width: 90%;
+    height: auto;
+    margin-top: 7em;
+    margin-bottom: 7em;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}

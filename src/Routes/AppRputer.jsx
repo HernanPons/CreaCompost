@@ -8,6 +8,7 @@ import SegundoCarousel from '../Pages/SegundoCarousel/SegundoCarousel';
 import Nosotras from '../Pages/Nosotras/Nosotras'
 import Valores from '../Pages/Valores/Valores'
 import Cursos from '../Pages/Cursos/Cursos'
+import Instituciones from '../Pages/Instituciones/Instituciones'
 
 export const AppRouter = () => {
     return (
@@ -21,7 +22,7 @@ export const AppRouter = () => {
             <Nosotras />
             <Valores />
             <Cursos />
-            
+            <Instituciones />
 
             <Footer />
 
