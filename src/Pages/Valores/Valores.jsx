@@ -30,7 +30,7 @@ const Valores = () => {
 
                 <div>
                     <br /><br />
-                    <h3 className='subTextoValores'>"La magia de dos o mas humanos que se unen para crear,creer, abrazarse,compartir, escribir, pintar, bailar, proyectar, soñar.</h3>
+                    <h3 className='subTextoValores'>"La magia de dos o mas humanos que se unen para crear,creer, abrazarse, compartir, escribir, pintar, bailar, proyectar, soñar.</h3>
                     <br />
                     <h3 className='subTextoValores'>Mientras dos o mas compartan una emoción ya estamos salvados"</h3>
                     <h3 className='subTextoValores autorValores'>Laura Pantoja</h3>
