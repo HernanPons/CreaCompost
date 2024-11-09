@@ -1,0 +1,28 @@
+.tituloCursos {
+    margin-left: 170px;
+    margin-top: 50px;
+    color: #41a62a;
+}
+
+.cursosContainer {
+    width: 1321px;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 233px;
+    margin-bottom: 100px;
+}
+
+.verMas {
+    text-align: end;
+    margin-left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.flechaVerMas {
+    height: 30px;    
+}

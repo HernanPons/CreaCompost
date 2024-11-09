@@ -6,6 +6,8 @@ import Inicio from '../Pages/Inicio/Inicio'
 import QuienesSomos from '../Pages/QuienesSomos/QuienesSomos'
 import SegundoCarousel from '../Pages/SegundoCarousel/SegundoCarousel';
 import Nosotras from '../Pages/Nosotras/Nosotras'
+import Valores from '../Pages/Valores/Valores'
+import Cursos from '../Pages/Cursos/Cursos'
 
 export const AppRouter = () => {
     return (
@@ -17,6 +19,8 @@ export const AppRouter = () => {
             <QuienesSomos />
             <SegundoCarousel />
             <Nosotras />
+            <Valores />
+            <Cursos />
             
 
             <Footer />

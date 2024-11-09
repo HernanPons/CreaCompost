@@ -1,0 +1,31 @@
+.tituloValores {
+    margin-left: 150px;
+    margin-top: 200px;
+    color: #41a62a;
+}
+
+.textoValores {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.subTextoValores { 
+    margin-left: 30px;
+    color: #41a62a;
+    font-size: 37.32px;
+}
+
+.imagenValores {
+    width: 100%;
+    height: auto;
+}
+
+.autorValores {
+    margin-right: 30px;
+    color: #96bf0d;
+    font-size: 37.32px;
+    display: block;
+    text-align: end;
+}
+
