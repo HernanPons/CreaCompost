@@ -39,9 +39,11 @@ const Inicio = () => {
   return (
     <div>
       
-      <div className='encabezado'>
-        <h1>¡Hola!</h1>
-        <h2>Somos crea compost crea verde</h2>
+      <div className='encabezado sansBold'>
+        <h1 className='text-gray'>¡Hola!</h1>
+        <div className='encabezado2'>
+          <h2 className='text-gray'>Somos</h2><h2 className='text-green'>crea compost</h2><h2 className='text-green2'>crea verde</h2>
+        </div>
       </div>
 
 

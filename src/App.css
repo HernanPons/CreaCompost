@@ -43,3 +43,15 @@ h1, h2 {
   color: #333;
 }
 
+.sansBold {
+  font-family: "Public Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.sansLight {
+  font-family: "Public Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}  

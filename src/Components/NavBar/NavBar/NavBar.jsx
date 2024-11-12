@@ -8,13 +8,13 @@ const NavBar = () => {
       <div className="navbar-logo">
         <img src="logo.png" alt="Logo" className="logo-image" />
         <span className="logo-text">
-          <span className='logo-text1'>crea compost</span>
+          <span className='logo-text1 sansBold'>crea compost</span>
           <br />
-          <span className='logo-text2'>crea verde</span>
+          <span className='logo-text2 sansBold'>crea verde</span>
         </span>
       </div>
 
-      <ul className="navbar-menu">
+      <ul className="navbar-menu sansBold">
         <li><a href="#crea">CREA</a></li>
         <li><a href="#quienes-somos">¿QUIENES SOMOS?</a></li>
         <li><a href="#tienda">TIENDA</a></li>

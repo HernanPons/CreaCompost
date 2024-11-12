@@ -1,11 +1,15 @@
-@font-face {
-    font-family: 'Publico';
-    src: url('./fonts/Publico-Bold.woff2') format('woff2'),
-         url('./fonts/Publico-Bold.woff') format('woff');
-    font-weight: bold;
+.sansBold {
+    font-family: "Public Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
     font-style: normal;
-  }
-
+}
+.sansLight {
+    font-family: "Public Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}  
 
 .quienesContainer {
     width: 100%;
@@ -27,12 +31,14 @@
     padding: 50px 160px 50px 20px;
 }
 
-.text-green {
+
+
+/*.text-green {
     color: #41a62a; /* Verde bosque*/
-}
+/*}
 .text-green2 {
     color: #96bf0d;
 }
 .text-gray {
     color: #919191; /* Gris */
-}
+/*}

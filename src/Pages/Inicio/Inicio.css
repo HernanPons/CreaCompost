@@ -2,17 +2,36 @@
     margin: 0px;
 }
 
+.sansBold {
+  font-family: "Public Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.sansLight {
+  font-family: "Public Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}  
+
 /* TITULO PRINCIPAL */
 
 .encabezado {
     width: 100%;
-    height: 164px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    font-size: 53.75px;
 }
+
+.encabezado2 {
+  display: flex;
+  gap: 20px;
+}
+
 
 
 /* PRIMER CAROUSEL */
@@ -57,11 +76,15 @@
   }
 
   .text-green {
-    color: #32CD32; /* Verde */
+    color: #41a62a; /* Verde */
+  }
+
+  .text-green2 {
+    color: #96bf0d ;
   }
   
   .text-gray {
-    color: #808080; /* Gris */
+    color: #555555; /* Gris */
   }
 
   .text-lower {
