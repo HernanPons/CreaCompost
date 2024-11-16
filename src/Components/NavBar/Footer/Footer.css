@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap');
+
 .sansBold {
     font-family: "Public Sans", serif;
     font-optical-sizing: auto;
@@ -10,7 +12,7 @@
     font-weight: 300;
     font-style: normal;
 }
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap');
+
 
 
 .footer {
@@ -42,7 +44,6 @@
 }
   
 .footer-logo-text p {
-    color: #4CAF50;
     font-weight: bold;
     margin: 0;
     line-height: 1;
@@ -73,8 +74,8 @@
   
 .footer-line {
     border: none;
-    border-top: 2px solid #4CAF50;
-    width: 80%;
+    border-top: 2px solid #41a62a;
+    width: 90%;
     margin: 20px auto;
 }
   
@@ -89,3 +90,17 @@
     color: #555;
 }
   
+
+
+.fotoFooter {
+    width: 100%;
+}
+
+.logoFooter {
+    display: flex;
+    gap: 0.5em;
+}
+
+.tarjetaFooter {
+    margin-left: 4em;
+}

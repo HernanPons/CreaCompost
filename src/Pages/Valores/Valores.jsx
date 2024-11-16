@@ -8,7 +8,7 @@ const Valores = () => {
     
                 <div>
                     <h1 className='tituloValores'>Valores</h1>
-                    <div className='textoValores'>
+                    <div className='textoValores text-gris sansLight'>
                         <h3>
                             Desandar el consumo lineal de comprar y tirar para transformarlo de a poco en un consumo circular donde nada se pierda, imitando los ciclos
                             de la naturaleza, ya que somos uno con el todo, todos dependemos de todos. Permitirnos ser imperfectos, aceptando nuestras incoherencias para encontrar un camino más coherente hacia la sustentabilidad.

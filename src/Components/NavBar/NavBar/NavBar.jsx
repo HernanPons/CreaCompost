@@ -6,7 +6,7 @@ const NavBar = () => {
     <nav className="navbar">
 
       <div className="navbar-logo">
-        <img src="logo.png" alt="Logo" className="logo-image" />
+        <img src="/Images/Logo.png" alt="Logo" className="logo-image" />
         <span className="logo-text">
           <span className='logo-text1 sansBold'>crea compost</span>
           <br />

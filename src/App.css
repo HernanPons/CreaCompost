@@ -55,3 +55,7 @@ h1, h2 {
   font-weight: 300;
   font-style: normal;
 }  
+
+.text-gris {
+  color: #565555;
+}

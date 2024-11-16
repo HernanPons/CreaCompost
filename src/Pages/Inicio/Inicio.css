@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap');
+
 * {
     margin: 0px;
 }
@@ -15,7 +17,6 @@
   font-style: normal;
 }  
 
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap');
 
 
 /* TITULO PRINCIPAL */
