@@ -8,22 +8,25 @@ function Footer() {
       <div className='logoFooter'>
       <img src="/Images/Logo.png" alt="Logo" className="footer-logo-image" />
           <div className="footer-logo-text">
-            <p>crea compost</p>
-            <p>crea verde</p>
+            <p className='text-green'>crea compost</p>
+            <p className='text-green2'>crea verde</p>
           </div>
       </div>
+      <br />
       <div>
         <p>Contactanos</p>
         <br />
         <br />
         <p>Valle Escondido Córdoba Capital, Argentina.</p>
         <br />
-        <p>Teléfono: +54 9 351 5050090</p>
+        <p>Teléfono: <a href="https://wa.me/+5493513063528" target="_blank"> +54 9 351 5050090 </a></p>
         <br />
         <div className='logoFooter'><p>mail:</p><a href="   agregar vinculo al mail   " className='text-green2'>creacompostcreaverde@gmail.com</a></div>
       </div>
       <br />
       
+      +54 9 351 5050090
+
     </div>
     
     <div>
@@ -50,9 +53,11 @@ function Footer() {
         </nav>
 
         <div className="footer-icons">
-          <a href="#mail" className="icon-mail">📘</a>
-          <a href="#instagram" className="icon-instagram">📸</a>
-          <a href="#whatsapp" className="icon-hatsapp">📲</a>
+        <a href="https://mail.google.com/mail/?view=cm&to=creacompostcreaverde@gmail.com" target="_blank">
+        <i className="icon-envelope"></i>
+        </a>
+        <a href="https://www.instagram.com/creacompostcreaverde/" target="_blank"><i className="icon-instagram"></i></a>
+        <a href="https://wa.me/+5493513063528" target="_blank"><i className="icon-whatsapp"></i></a>
         </div>
       </div>
 

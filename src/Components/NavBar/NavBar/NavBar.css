@@ -81,8 +81,42 @@
     text-decoration: none;
   }
   
+  /*
   .icon-envelope:before { content: "✉️"; }
   .icon-instagram:before { content: "📸"; }
   .icon-whatsapp:before { content: "📲"; }
   .icon-cart:before { content: "🛒"; }
+  */
+
+  .icon-envelope {
+    display: inline-block;
+    width: 24px; /* Ajusta según el tamaño que necesites */
+    height: 24px;
+    background-image: url('/Images/mailLogo.png'); /* Ruta a tu imagen */
+    background-size: cover;
+  }
+  
+  .icon-instagram {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/Images/igLogo.png');
+    background-size: cover;
+  }
+  
+  .icon-whatsapp {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/Images/waLogo.png');
+    background-size: cover;
+  }
+  
+  .icon-cart {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/Images/cartLogo.png');
+    background-size: cover;
+  }
   
