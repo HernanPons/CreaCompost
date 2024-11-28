@@ -11,14 +11,38 @@ const Instituciones = () => {
         
         <div className='institucionesContainer'>
             <img className='fotoInstituciones' src="/Images/ServicioInstituciones.png" alt="" />
-            <h3 className='institucionesText'>Para más info sobre nuestros servicios escribinos!</h3>
+            <h3 className='institucionesText'><a href="https://wa.me/+5493513063528" target="_blank" className='whatsappLink'> Para más info sobre nuestros servicios escribinos! </a></h3>
         </div>
 
         <div className='institucionesTextContainer'>
+
+            <div className='textSistemas'>
+                <h2>Sistemas de <br /> compostaje</h2>
+            </div>
+            <div className='textSistemas sansLight text-gris'>
+                <ul>
+                    <li>
+                    Proveemos productos para compostar, de diferentes características, para brindar la solución más práctica, teniendo en cuenta las 
+                    necesidades propias de cada institución.
+                    </li>
+                </ul>
+            </div>
+
+            <div className='textDiseño'>
+                <h2>Diseño</h2>
+            </div>
+            <div className='textDiseño sansLight text-gris'>
+                <ul>
+                    <li>Diseño, ejecución y mantenimiento de espacios de compostaje.</li>
+                    <li>Diseño de espacios verdes, huertas y jardines, buscando la sustentabilidad y regeneracion de ecosistemas.</li>
+
+                </ul>
+            </div> 
+
             <div className='textTalleres'>
                 <h2>Talleres</h2>
             </div>
-            <div className='sansLight text-gris'>
+            <div className='sansLight text-gris textTalleres'>
                 <span>
                     Brindamos capacitaciones a los integrantes de instituciones 
                     comprometidas con la sustentabilidad, adaptadas a sus necesidades. 
@@ -32,31 +56,9 @@ const Instituciones = () => {
                 </span>
             </div> 
 
-            <div className='textDiseño'>
-                <h2>Diseño</h2>
-            </div>
-            <div className='textDiseño sansLight text-gris'>
-                <ul>
-                    <li>Diseño, ejecución y mantenimiento de espacios de compostaje.</li>
-                    <li>Diseño de espacios verdes, huertas y jardines, buscando la sustentabilidad y regeneracion de ecosistemas.</li>
-
-                </ul>
-            </div> 
             
-            <div className='textSistemas'>
-                <h2>Sistemas de <br /> compostaje</h2>
-            </div>
-            <div className='textSistemas sansLight text-gris'>
-                <ul>
-                    <li>
-                    Proveemos productos para compostar, de diferentes características, para brindar la solución más práctica, teniendo en cuenta las 
-                    necesidades propias de cada institución.
-                    </li>
-                </ul>
-            </div>
-
             <div className='textComunicacion'>
-            <h2>Talleres</h2>
+            <h2>Comunicación</h2>
             </div>
             <div className='textComunicacion sansLight text-gris'>
                 <ul>

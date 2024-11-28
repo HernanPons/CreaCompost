@@ -11,7 +11,7 @@ const Cursos = () => {
         <br />
 
         <div className='cursosContainer'>
-            <a href="https://www.tiendanube.com/" className='primerCurso'>
+            <a href="https://creacompostcreaverde.mitiendanube.com/" className='primerCurso'>
                 <div className='imagenContainer'>
                     <img className='fotoHuerta' src="/Images/HuertaAgroecologica2.png" alt="foto huerta agroecologica" />
                     <div className='greenBar'>
@@ -22,12 +22,12 @@ const Cursos = () => {
                 <h2 className='verMas'>ver mas <img className='flechaVerMas' src="/Images/VerMas.png" alt="" /></h2>
             </a>
 
-            <a href="https://www.tiendanube.com/" className='segundoCurso'>
+            <a href="https://creacompostcreaverde.mitiendanube.com/" className='segundoCurso'>
                 <div className='imagenContainer'>
                     <img className='fotoHuerta' src="/Images/Compostaje2.png" alt="foto huerta agroecologica" />
                     <div className='greenBar'>
                     <br />
-                    <h1>Compostaje</h1>
+                    <h1>compostaje</h1>
                     <br />
                     </div>
                 </div>

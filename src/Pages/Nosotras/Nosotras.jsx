@@ -10,7 +10,7 @@ const Nosotras = () => {
                 <h1 className='tituloNosotras'>Nosotras</h1>
                 <div className='textoNosotras text-gris sansLight'>
                     <h3>
-                        ¡Hola! Somos Cecilia Guzmán Poupard y Mariela Ciarapica, dos primas que compartimos el amor por la naturaleza. Creemos que nuestras infancias estuvieron muy influenciadas por uno de nuestros abuelos, que era bioquímico, amaba las plantas y los minerales, tenía su huerta y compostaba.
+                        ¡Hola! Somos Mariela Ciarapica y Cecilia Guzmán Poupard, dos primas que compartimos el amor por la naturaleza. Creemos que nuestras infancias estuvieron muy influenciadas por nuestro abuelo, que era bioquímico, amaba las plantas y los minerales, tenía su huerta y compostaba. Evidenciaba una gran comprensión de los ciclos vitales, los elementos de la tabla periódica que forman todo lo que nos rodea y sus transformaciones.
                     </h3>
                     <br />
                     <h3>

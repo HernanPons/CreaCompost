@@ -88,7 +88,7 @@
   }
   
   .text-gray {
-    color: #555555; /* Gris */
+    color: #919191; /* Gris */
   }
 
   .text-lower {
@@ -97,26 +97,54 @@
     margin-top: 5px; /* Deja un pequeño espacio entre el texto superior e inferior */
   }
     
-  .carousel-button {
+/*   .carousel-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    background: linear-gradient(90deg, #41a62a, #96bf0d);
+    color: rgb(255, 246, 246);
     border: none;
+    border-radius: 50%;
     padding: 10px;
     cursor: pointer;
     z-index: 1;
-  }
+  } */
   
   /* sin botones */
-  .carousel-button.prev {
+/*   .carousel-button.prev {
     left: 10px;
-    display: none;
   }
   
   .carousel-button.next {
     right: 10px;
-    display: none;
+  } */
+
+  .carousel-controls {
+    position: absolute;
+    bottom: 20px; /* Distancia desde la parte inferior del carrusel */
+    width: 100%; /* Ocupa todo el ancho del carrusel */
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espaciado entre los botones */
+    z-index: 1;
+  }
+  
+  /* Estilo de los círculos */
+  .carousel-circle {
+    width: 20px;
+    height: 20px;
+    background: #919191; /* Color gris por defecto */
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s ease;
+  }
+  
+  .carousel-circle.active {
+    background: linear-gradient(90deg, #41a62a, #96bf0d); /* Verde cuando está activo */
+  }
+  
+  .carousel-circle:hover {
+    transform: scale(1.2); /* Efecto al pasar el mouse */
   }
   

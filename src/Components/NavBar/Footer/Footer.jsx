@@ -19,13 +19,12 @@ function Footer() {
         <br />
         <p>Valle Escondido Córdoba Capital, Argentina.</p>
         <br />
-        <p>Teléfono: <a href="https://wa.me/+5493513063528" target="_blank"> +54 9 351 5050090 </a></p>
+        <p>Teléfono: <a href="https://wa.me/+5493513063528" target="_blank" className='whatsappLink'> +54 9 351 3063528 </a></p>
         <br />
         <div className='logoFooter'><p>mail:</p><a href="   agregar vinculo al mail   " className='text-green2'>creacompostcreaverde@gmail.com</a></div>
       </div>
       <br />
       
-      +54 9 351 5050090
 
     </div>
     
@@ -46,18 +45,17 @@ function Footer() {
           </div>
         </div>
 
-        <nav className="footer-menu">
+        {/* <nav className="footer-menu">
           <a href="#ayuda">Ayuda</a>
           <a href="#contactanos">Contáctanos</a>
           <a href="#terminos">Términos y Condiciones</a>
-        </nav>
+        </nav> */}
 
         <div className="footer-icons">
-        <a href="https://mail.google.com/mail/?view=cm&to=creacompostcreaverde@gmail.com" target="_blank">
-        <i className="icon-envelope"></i>
-        </a>
-        <a href="https://www.instagram.com/creacompostcreaverde/" target="_blank"><i className="icon-instagram"></i></a>
         <a href="https://wa.me/+5493513063528" target="_blank"><i className="icon-whatsapp"></i></a>
+        <a href="https://www.instagram.com/creacompostcreaverde/" target="_blank"><i className="icon-instagram"></i></a>
+        <a href="https://mail.google.com/mail/?view=cm&to=creacompostcreaverde@gmail.com" target="_blank">
+        <i className="icon-envelope"></i></a>
         </div>
       </div>
 

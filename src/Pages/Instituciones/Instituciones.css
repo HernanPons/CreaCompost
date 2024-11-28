@@ -52,6 +52,9 @@
 .textComunicacion {
     margin-top: 40px;
 }
+.textTalleres {
+    margin-top: 40px;
+}
 
 
 
@@ -69,4 +72,9 @@
     margin-bottom: 7em;
     display: grid;
     grid-template-columns: 1fr 2fr;
+}
+
+.whatsappLink {
+    color: inherit; /* Toma el color del elemento padre, en este caso el h3 */
+    text-decoration: none; /* Opcional, para quitar el subrayado */
 }

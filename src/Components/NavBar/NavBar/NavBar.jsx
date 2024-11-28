@@ -24,12 +24,10 @@ const NavBar = () => {
       </ul>
 
       <div className="navbar-icons">
-        <a href="https://mail.google.com/mail/?view=cm&to=creacompostcreaverde@gmail.com" target="_blank">
-        <i className="icon-envelope"></i>
-        </a>
-        <a href="https://www.instagram.com/creacompostcreaverde/" target="_blank"><i className="icon-instagram"></i></a>
         <a href="https://wa.me/+5493513063528" target="_blank"><i className="icon-whatsapp"></i></a>
         <a href="https://tiendanube.com" target="_blank"><i className="icon-cart"></i></a>
+        <a href="https://www.instagram.com/creacompostcreaverde/" target="_blank"><i className="icon-instagram"></i></a>
+        <a href="https://mail.google.com/mail/?view=cm&to=creacompostcreaverde@gmail.com" target="_blank"><i className="icon-envelope"></i></a>
       </div>
 
     </nav>

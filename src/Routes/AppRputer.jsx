@@ -9,6 +9,7 @@ import Nosotras from '../Pages/Nosotras/Nosotras'
 import Valores from '../Pages/Valores/Valores'
 import Cursos from '../Pages/Cursos/Cursos'
 import Instituciones from '../Pages/Instituciones/Instituciones'
+import Whatsapp from '../Components/Whatsapp/Whatsapp';
 
 export const AppRouter = () => {
     return (
@@ -25,6 +26,7 @@ export const AppRouter = () => {
             <Instituciones />
 
             <Footer />
+            <Whatsapp /> {/* Botón flotante */}
 
         </BrowserRouter>
     )
