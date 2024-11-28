@@ -77,3 +77,66 @@
     margin-left: 40px;
     color: #ffffff;
 }
+
+
+
+
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .tituloCursos {
+        font-size: 36px; /* Reduce el tamaño del título */
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .cursosContainer {
+        flex-direction: column; /* Elementos en columna */
+        align-items: center;
+        gap: 40px; /* Espacio entre cursos */
+        margin: 20px auto;
+        width: 100%;
+    }
+
+    .greenBar {
+        max-width: 90%; /* Ajusta la barra verde al ancho del contenedor */
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        padding: 15px;
+    }
+
+    .greenBar h1 {
+        margin-left: 20px; /* Reduce margen del texto dentro de la barra */
+        font-size: 20px;
+    }
+
+    .verMas {
+        font-size: 14px;
+    }
+
+    .flechaVerMas {
+        height: 20px; /* Reduce tamaño de la flecha */
+    }
+}
+
+@media (max-width: 480px) {
+    .tituloCursos {
+        font-size: 28px; /* Reduce más el tamaño en pantallas pequeñas */
+    }
+
+    .greenBar h1 {
+        font-size: 18px; /* Ajusta el tamaño del texto */
+    }
+
+    .fotoHuerta {
+        border-radius: 10px; /* Reduce el radio de los bordes */
+    }
+
+    .verMas {
+        font-size: 12px; /* Ajusta el tamaño del texto "ver más" */
+    }
+
+    .flechaVerMas {
+        height: 15px; /* Reduce aún más el tamaño de la flecha */
+    }
+}

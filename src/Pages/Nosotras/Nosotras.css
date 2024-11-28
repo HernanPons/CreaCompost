@@ -68,3 +68,72 @@
 .segundaFoto h2 {
     text-align: left;
 }
+
+
+
+
+
+/* Ajustes para dispositivos pequeños */
+@media (max-width: 768px) {
+    .tituloNosotras {
+        font-size: 36px; /* Reduce el tamaño del título */
+        margin: 0 auto; /* Centra el título */
+        text-align: center;
+    }
+
+    .textoNosotras {
+        margin: 1em; /* Reduce los márgenes laterales */
+        font-size: 16px; /* Ajusta el tamaño del texto */
+    }
+
+    .fotosContainer {
+        flex-direction: column; /* Apila las fotos verticalmente */
+        align-items: center; /* Centra los elementos en pantallas pequeñas */
+        gap: 3em;
+    }
+
+    .fotoMaru, .fotoCeci {
+        max-width: 90%; /* Las imágenes ocupan el 90% del ancho disponible */
+    }
+
+    .textMaru, .textCeci {
+        margin-left: 0;
+        text-align: center; /* Centra los textos */
+    }
+}
+
+/* Ajustes para pantallas extra pequeñas */
+@media (max-width: 480px) {
+    .tituloNosotras {
+        font-size: 28px; /* Reduce aún más el título */
+    }
+
+    .fotosContainer {
+        max-width: 450px;
+    }
+
+    .primerFoto {
+        max-width: 100%;
+        margin-top: 8em;
+    }
+    .primerFoto h2 {
+        text-align: center;
+    }
+
+
+    .segundaFoto {
+        max-width: 100%;
+        margin-top: 8em;
+    }
+    .segundaFoto h2 {
+        text-align: center;
+    }
+
+    .textoNosotras {
+        font-size: 14px; /* Reduce el texto descriptivo */
+    }
+
+    .fotoMaru, .fotoCeci {
+        max-width: 100%; /* Asegura que las imágenes ocupen el 100% del ancho disponible */
+    }
+}

@@ -46,3 +46,56 @@
     color: #919191;
 }
 */
+
+
+
+
+/* Ajustes para pantallas medianas */
+@media (max-width: 1024px) {
+    .primerTexto, .segundoTexto {
+        width: 100%; /* Ocupan todo el ancho disponible */
+        padding: 20px 40px; /* Reducir padding para adaptarse mejor */
+    }
+
+    .quienesContainer {
+        gap: 30px; /* Añadir más separación entre bloques de texto */
+    }
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .primerTexto h1, .segundoTexto h1 {
+        font-size: 24px; /* Reducir el tamaño de los títulos */
+    }
+
+    .primerTexto h3, .segundoTexto h3 {
+        font-size: 16px; /* Reducir el tamaño del texto secundario */
+    }
+
+    .primerTexto, .segundoTexto {
+        padding: 10px 20px; /* Reducir padding para pantallas pequeñas */
+    }
+}
+
+/* Ajustes para pantallas extra pequeñas */
+@media (max-width: 480px) {
+    .primerTexto, .segundoTexto {
+        text-align: center; /* Centrar los textos para mejorar la visualización */
+        padding: 0;
+    }
+
+    .primerTexto h1, .segundoTexto h1 {
+        font-size: 20px; /* Reducir aún más el tamaño de los títulos */
+    }
+
+    .primerTexto h3, .segundoTexto h3 {
+        font-size: 14px; /* Reducir tamaño de los textos secundarios */
+    }
+
+    .quienesContainer {
+        flex-direction: column; /* Apilar los textos verticalmente */
+        align-items: center; /* Centrar contenido en pantallas extra pequeñas */
+        padding: 0px; /* Espaciado general reducido */
+        gap: 0;
+    }
+}

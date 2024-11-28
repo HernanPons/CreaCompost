@@ -131,3 +131,70 @@
 .tarjetaFooter {
     margin-left: 4em;
 }
+
+
+
+
+/* Para pantallas medianas (tablets) */
+@media (max-width: 1024px) {
+    .tarjetaFooter {
+      padding: 15px;
+      gap: 15px;
+    }
+  
+    .footer-logo-image {
+      width: 50px;
+    }
+  
+    .footer-icons a {
+      font-size: 18px;
+    }
+  
+    .footer-bottom {
+      font-size: 12px;
+    }
+  }
+  
+  /* Para pantallas pequeñas (móviles) */
+  @media (max-width: 768px) {
+    .tarjetaFooter {
+      text-align: center;
+    }
+  
+    .logoFooter {
+      flex-direction: column; /* Apila el logo y texto */
+      gap: 5px;
+    }
+  
+    .footer-icons {
+      gap: 5px;
+    }
+  
+    .footer-icons a {
+      font-size: 16px;
+    }
+  
+    .footer-logo-image {
+      width: 40px;
+    }
+  
+    .fotoFooter {
+      max-width: 200px;
+    }
+  }
+  
+  /* Para pantallas extra pequeñas */
+  @media (max-width: 480px) {
+    .footer-top {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .footer-icons a {
+      margin: 0 5px;
+    }
+  
+    .footer-bottom {
+      font-size: 10px;
+    }
+  }

@@ -120,3 +120,61 @@
     background-size: cover;
   }
   
+
+
+
+/* Estilos responsivos para tablets */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Cambiar dirección del navbar */
+    align-items: flex-start;
+    padding: 10px 20px;
+    height: auto;
+  }
+
+  .navbar-logo {
+    justify-content: space-between;
+    width: 100%; /* Ocupa toda la fila */
+  }
+
+  .navbar-menu {
+    flex-direction: column; /* Cambia el menú a una columna */
+    align-items: flex-start;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0;
+    gap: 10px; /* Añade espacio entre elementos */
+  }
+
+  .navbar-menu li {
+    width: 100%;
+  }
+
+  .navbar-menu li a {
+    font-size: 1rem; /* Ajustar tamaño de letra */
+  }
+
+  .navbar-icons {
+    justify-content: flex-start; /* Alinear los iconos a la izquierda */
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+
+
+/* Estilos responsivos para celulares */
+
+@media (max-width: 480px) {
+  .logo-text {
+    font-size: 18px; /* Reduce el tamaño del texto del logo */
+  }
+
+  .navbar-menu li a {
+    font-size: 0.9rem; /* Ajusta el tamaño del texto en pantallas muy pequeñas */
+  }
+
+  .navbar-icons a {
+    font-size: 1rem; /* Reduce ligeramente el tamaño de los iconos */
+  }
+}

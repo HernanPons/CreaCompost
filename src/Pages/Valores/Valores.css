@@ -47,3 +47,44 @@
     text-align: end;
 }
 
+
+
+
+
+/* Ajustes para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .tituloValores {
+      font-size: 2.2rem; /* Reduce el tamaño del título en pantallas pequeñas */
+      margin-top: 30px;
+    }
+  
+    .textoValores {
+      font-size: 1rem; /* Ajusta el tamaño de la fuente en dispositivos móviles */
+      width: 90%;
+    }
+  
+    .subTextoValores {
+      font-size: 1.5rem; /* Reduce el tamaño del subtítulo */
+    }
+  
+    .imagenValores {
+      width: 100%;
+    }
+  }
+  
+  /* Ajustes para pantallas muy pequeñas (móviles muy pequeños) */
+  @media (max-width: 480px) {
+    .tituloValores {
+      font-size: 1.8rem; /* Aún más pequeño en pantallas pequeñas */
+      margin-top: 20px;
+    }
+  
+    .textoValores {
+      font-size: 0.9rem; /* Ajusta la fuente */
+      margin: auto;
+    }
+  
+    .subTextoValores {
+      font-size: 1.3rem; /* Tamaño más pequeño para pantallas muy pequeñas */
+    }
+  }

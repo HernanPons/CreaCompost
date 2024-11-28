@@ -148,3 +148,79 @@
     transform: scale(1.2); /* Efecto al pasar el mouse */
   }
   
+
+
+
+
+/* Ajustes para pantallas medianas */
+@media (max-width: 1024px) {
+  .encabezado {
+    font-size: 40px;
+  }
+
+  .sidebar {
+    top: 400px; /* Ajustar la posición del sidebar */
+    height: auto;
+    padding: 10px;
+  }
+
+  .carousel-slide {
+    height: 500px; /* Reducir la altura del carrusel */
+  }
+
+  .carousel-image {
+    object-fit: contain; /* Para evitar recortes no deseados en imágenes */
+  }
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .encabezado {
+    height: auto; /* Dejar que se ajuste automáticamente */
+    font-size: 30px;
+    padding: 20px;
+  }
+
+  .encabezado2 {
+    flex-direction: column; /* Apilar los elementos verticalmente */
+    gap: 10px; /* Reducir la separación */
+  }
+
+  .carousel-slide {
+    height: 400px;
+  }
+
+  .sidebar {
+    top: 300px; /* Ajustar la posición del sidebar */
+    font-size: 14px; /* Reducir el tamaño de fuente */
+    padding: 10px;
+  }
+
+  .carousel-circle {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+/* Ajustes para pantallas extra pequeñas */
+@media (max-width: 480px) {
+  .encabezado {
+    font-size: 24px;
+    padding: 0;
+  }
+
+  .carousel-slide {
+    height: 300px;
+  }
+
+  .sidebar {
+    top: 200px;
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .carousel-circle {
+    width: 10px;
+    height: 10px;
+  }
+}

@@ -60,3 +60,55 @@
   .segundoCarousel-button.next {
     right: 10px;
   }
+
+
+
+
+
+/* Para pantallas medianas (tablets) */
+@media (max-width: 1024px) {
+  .segundoCarousel {
+    max-height: 400px; /* Ajustar la altura para tabletas */
+  }
+
+  .segundoCarousel-button {
+    padding: 8px;
+    font-size: 18px;
+  }
+
+  .segundoCarousel-image {
+    object-position: center; /* Asegura que la imagen esté centrada */
+  }
+}
+
+/* Para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+  .segundoCarousel {
+    max-height: 300px; /* Ajusta la altura para móviles */
+  }
+
+  .segundoCarousel-button {
+    padding: 6px;
+    font-size: 16px;
+  }
+
+  .segundoCarousel-image {
+    object-position: center; /* Centra la imagen */
+  }
+}
+
+/* Para pantallas extra pequeñas */
+@media (max-width: 480px) {
+  .segundoCarousel {
+    max-height: 250px; /* Ajuste de altura para dispositivos pequeños */
+  }
+
+  .segundoCarousel-button {
+    padding: 4px;
+    font-size: 14px;
+  }
+
+  .segundoCarousel-image {
+    object-position: center; /* Ajusta el posicionamiento de la imagen */
+  }
+}

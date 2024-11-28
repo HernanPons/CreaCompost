@@ -78,3 +78,64 @@
     color: inherit; /* Toma el color del elemento padre, en este caso el h3 */
     text-decoration: none; /* Opcional, para quitar el subrayado */
 }
+
+
+
+
+
+/* Media Query: Adaptar para pantallas pequeñas */
+@media (max-width: 768px) {
+    .tituloInstituciones {
+        margin-left: 2em;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .institucionesContainer {
+        flex-direction: column;
+        margin: 0 1em;
+        text-align: center;
+    }
+
+    .institucionesContainer img {
+        width: 100%; /* Imagen ocupará el ancho disponible */
+        height: auto;
+    }
+
+    .institucionesText {
+        margin: 1em 0;
+        text-align: center;
+    }
+
+    .institucionesTextContainer {
+        grid-template-columns: 1fr; /* Una sola columna */
+        gap: 2em;
+        margin: 2em 1em;
+    }
+
+    .textTalleres, .textDiseño, .textSistemas, .textComunicacion {
+        text-align: center;
+    }
+
+    .whatsappLink {
+        font-size: 1em;
+        text-align: center;
+        display: block; /* Forzar a que ocupe toda la línea */
+    }
+}
+
+/* Media Query: Adaptar para pantallas extra pequeñas */
+@media (max-width: 480px) {
+    .tituloInstituciones {
+        font-size: 1.2em;
+        margin: 1em;
+    }
+
+    .institucionesTextContainer {
+        gap: 1.5em;
+    }
+
+    .whatsappLink {
+        font-size: 0.9em;
+    }
+}
