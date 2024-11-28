@@ -38,7 +38,7 @@ const Inicio = () => {
 
   return (
     <div>
-      <div className='encabezado'>
+      <div className='encabezado' id='crea'>
         <h1 className='text-gray'>¡Hola!</h1>
         <div className='encabezado2'>
           <h2 className='text-gray'>Somos</h2>

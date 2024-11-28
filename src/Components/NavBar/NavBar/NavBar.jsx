@@ -20,7 +20,6 @@ const NavBar = () => {
         <li><a href="#tienda">TIENDA</a></li>
         <li><a href="#cursos">CURSOS</a></li>
         <li><a href="#instituciones">INSTITUCIONES</a></li>
-        <li><a href="#proyectos">PROYECTOS</a></li>
       </ul>
 
       <div className="navbar-icons">

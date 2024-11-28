@@ -5,7 +5,7 @@ const Cursos = () => {
   return (
     <div>
         <div>
-            <h1 className='tituloCursos'>Cursos</h1>
+            <h1 className='tituloCursos' id='cursos'>Cursos</h1>
         </div>
 
         <br />

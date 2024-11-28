@@ -4,7 +4,7 @@ import './Instituciones.css'
 const Instituciones = () => {
   return (
     <div>
-        <div className='tituloInstituciones'>
+        <div className='tituloInstituciones' id='instituciones'>
             <h1 className='text-green'>creacompost</h1>
             <h1 className='text-green2'>creaverde</h1>
         </div>
